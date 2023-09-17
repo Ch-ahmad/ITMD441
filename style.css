@@ -25,11 +25,25 @@ a {
     color: #007BFF;
 }
 
+/* _____________________________ */
+
+
+
 /* Header Styles */
 header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
+header h1 {
+    font-size: 30pt;
+    font-weight: 100;
+    font-family:fantasy;
+}
+
+header p:nth-child(2) {
+    font-size: 22px; 
+}
+
 
 /* Section Styles */
 section {
@@ -51,4 +65,76 @@ footer {
     text-align: center;
     margin-top: 20px;
     color: #888;
+} 
+
+
+/* Global Styles */
+body {
+    /* ... (existing styles) */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    /* ... (existing styles) */
+    background-color: #a6c7ea;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    /* ... (existing styles) */
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    /* ... (existing styles) */
+    transition: transform 0.5s;
+}
+
+section:hover {
+    transform: scale(1.02); /* Enlarge the section slightly on hover */
+}
+
+/* List Styles */
+ul {
+    /* ... (existing styles) */
+    padding-left: 40px; /* Increase the left padding for the list */
+}
+
+/* Footer Styles */
+footer {
+    /* ... (existing styles) */
+    font-size: 14px;
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Link Styles */
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Add a border to images */
+img {
+    border: 1px solid #ddd;
+}
+
+/* Style project and achievement list items */
+section ul li {
+    margin-bottom: 8px; /* Add space between list items */
+}
+
+/* Style achievement list items with a checkmark icon */
+section h2:after {
+    content: "\2713"; /* Unicode checkmark symbol */
+    color: #4CAF50;
+    margin-left: 10px;
+}
+
+/* Style the contact information paragraph */
+header p {
+    font-size: 14px;
+    margin-top: 5px;
 }
