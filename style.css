@@ -138,3 +138,23 @@ header p {
     font-size: 14px;
     margin-top: 5px;
 }
+
+/* ___________________________________________ */
+
+/* Additional styles specific to this content */
+.profile-intro {
+    text-align: center;
+    margin: 20px;
+}
+.profile-intro h1 {
+    font-size: 24px;
+    color: #333;
+}
+.profile-intro h3 {
+    font-size: 20px;
+    color: #333;
+}
+.profile-intro p {
+    font-size: 16px;
+    color: #666;
+}
