@@ -57,6 +57,10 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
+	display: grid;
+	grid-template-columns: repeat(4 ,1fr);
+	grid-auto-rows: 100px;
+	gap: 20px;
 
 }
 
@@ -66,11 +70,14 @@
 /* Grid Part 2 */
 
 #grid-section2 .gridboxblue {
-
+	grid-column: 2/4;
+	grid-row: 1/4;
+	z-index: 2;
 }
 
 #grid-section2 .gridboxred {
-
+	grid-row: 2/3;
+	grid-column: 1/3;
 }
 
 /* end Grid Part 2 */
@@ -79,23 +86,32 @@
 /* Grid Part 3 */
 
 #grid-section3 .grid {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 100px 300px 100px;
+	gap: 10px;
 
 }
 
 #grid-section3 .box1 {
-
+	grid-row: 1;
+	grid-column: 1/3;
 }
 
 #grid-section3 .box2 {
+	grid-column: 1;
+	grid-row: 2;
 
 }
 
 #grid-section3 .box3 {
-
+	grid-column: 2;
+	grid-row:2;
 }
 
 #grid-section3 .box4 {
-
+	grid-column: 1/3;
+	grid-row: 3;
 }
 
 /* end Grid Part 3 */
